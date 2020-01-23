@@ -1,0 +1,1 @@
+{"dataset_data":{"limit":null,"transform":null,"column_index":null,"column_names":["Date","USD (AM)","USD (PM)","GBP (AM)","GBP (PM)","EURO (AM)","EURO (PM)"],"start_date":"2019-11-08","end_date":"2019-11-08","frequency":"daily","data":[["2019-11-08",1466.85,1464.15,1144.58,1142.62,1328.09,1328.13]],"collapse":null,"order":"asc"}}

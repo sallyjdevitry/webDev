@@ -1,0 +1,17 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Home Page of GOLD APP</title>
+</head>
+<body>
+    <h1 style= "color: blue">Hey! Welcome to the home page of goldApp</h1>
+    <h2>Enter your weight in US pounds into the input box and I will tell you how much gold you are worth by today's gold price! </h2>
+    <script src = "{% static 'goldApp/test.js' %}"> </script>
+    <input type="number" id="userInput" style = "size: 24"></input>
+    <button onclick="doAllTheStuff()" class="btn" style = "color: blue; font-size: 18px">Calculate my worth!</button>
+    <p id = "resultP"> </p>
+</body>
+
+</html>
